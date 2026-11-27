@@ -1,16 +1,17 @@
 {
-  "version": "1.2.2.1",
-  "versionCode": 1221,
+  "version": "1.2.2.2",
+  "versionCode": 1222,
   "updatedAt": "2026-11-27",
   "mobile": {
-    "version": "1.2.2.1",
-    "versionCode": 1221,
+    "version": "1.2.2.2",
+    "versionCode": 1222,
     "notes": [
-      { "text": "合并：四个支付说明页整合为「支付速查」，补齐乘车码、NFC 一卡通、银联/外卡拍卡、云闪付刷脸、市郊铁路一票通行等方式" },
-      { "text": "重做：小助手只回答有依据的问题，支持查线路、换乘、票价与首末班车，没有依据会直接说明" },
-      { "text": "调整：小助手入口移至首页「出行服务」卡片，并更名为「小助手」" },
-      { "text": "内测 1.2.2.1：仅内测渠道可收到，正式版仍为 1.2.2" }
+      { "text": "新增：首页右上角搜索入口，可搜索工具、攻略、新闻，命中内容按「工具 → 攻略 → 新闻」分类展示" },
+      { "text": "修复：新手乘车攻略中的官方客服电话可直接调起系统拨号盘" },
+      { "text": "优化：读卡逻辑对齐 TrafArch，交易记录整段读取并去重，单条指令失败不再中断整卡读取" },
+      { "text": "新增：读卡结果交易站点显示线路/地铁标识，线路时刻表接入北京线路官方图标" },
+      { "text": "内测 1.2.2.2：仅内测渠道可收到，正式版仍为 1.2.2" }
     ],
-    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/beta/StarTrack-Beijing_1.2.2.1_1221.apk"
+    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/beta/StarTrack-Beijing_1.2.2.2_1222.apk"
   }
 }
