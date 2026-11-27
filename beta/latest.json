@@ -1,18 +1,18 @@
 {
-  "version": "1.2.2.3",
-  "versionCode": 1223,
+  "version": "1.2.2.2-fix1",
+  "versionCode": 1222,
   "updatedAt": "2026-11-27",
   "mobile": {
-    "version": "1.2.2.3",
-    "versionCode": 1223,
+    "version": "1.2.2.2-fix1",
+    "versionCode": 1222,
     "notes": [
-      { "text": "修复：资讯配图在客户端无法加载（Gitee 图片防盗链拦截了带 Referer 的请求，已改为不发送 Referer）" },
+      { "text": "修复：资讯配图在客户端无法加载（Gitee 图片防盗链拦截带 Referer 的请求，已改为不发送 Referer）" },
       { "text": "新增：首页右上角搜索入口，可搜索工具、攻略、新闻，命中内容按「工具 → 攻略 → 新闻」分类展示" },
       { "text": "修复：新手乘车攻略中的官方客服电话可直接调起系统拨号盘" },
       { "text": "优化：读卡逻辑对齐 TrafArch，交易记录整段读取并去重，单条指令失败不再中断整卡读取" },
       { "text": "新增：读卡结果交易站点显示线路/地铁标识，线路时刻表接入北京线路官方图标" },
-      { "text": "内测 1.2.2.3：仅内测渠道可收到，正式版仍为 1.2.2" }
+      { "text": "内测 1.2.2.2-fix1（1222）：仅内测渠道可收到，正式版仍为 1.2.2" }
     ],
-    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/beta/StarTrack-Beijing_1.2.2.3_1223.apk"
+    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/beta/StarTrack-Beijing_1.2.2.2-fix1_1222.apk"
   }
 }
