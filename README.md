@@ -8,7 +8,7 @@
 latest.json                        根清单（正式版副本，兼容旧版客户端）
 stable/
   latest.json                      正式版清单
-  StarTrack-Beijing_1.2.0_1200.apk 正式版安装包（versionCode 1200）
+  StarTrack-Beijing_1.2.1_1210.apk 正式版安装包（versionCode 1210）
 beta/
   latest.json                      内测版清单
   StarTrack-Beijing_1.2.0.2-R-beta_1202.apk  内测版安装包（versionCode 1202）

@@ -1,15 +1,15 @@
 {
-  "version": "1.2.0",
-  "versionCode": 1200,
+  "version": "1.2.1",
+  "versionCode": 1210,
   "updatedAt": "2026-11-27",
   "mobile": {
-    "version": "1.2.0",
-    "versionCode": 1200,
+    "version": "1.2.1",
+    "versionCode": 1210,
     "notes": [
-      { "text": "资讯页全新升级：59 条资讯长文详情、配图展示、原文链接与收藏功能" },
-      { "text": "新增设置页「参与内测」开关，正式版渠道仅接收稳定版本" },
-      { "text": "更新日志合并为单一列表；修复客户端资源请求失败问题" }
+      { "text": "修复检查更新页点击「更新到此版本」无反应的问题" },
+      { "text": "更新下载改由系统浏览器打开，修复安装包无法下载" },
+      { "text": "修复启动闪退：移除不兼容的插件依赖，原生能力统一走内置桥接" }
     ],
-    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/stable/StarTrack-Beijing_1.2.0_1200.apk"
+    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/stable/StarTrack-Beijing_1.2.1_1210.apk"
   }
 }
