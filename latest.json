@@ -1,0 +1,15 @@
+{
+  "version": "1.2.0.2",
+  "versionCode": 1202,
+  "updatedAt": "2026-11-27",
+  "mobile": {
+    "version": "1.2.0.2",
+    "versionCode": 1202,
+    "notes": [
+      { "text": "修复 http://tauri.localhost/ 请求失败：客户端改用 custom-protocol 正式模式构建" },
+      { "text": "资讯页全新升级：59 条资讯长文详情、配图展示、原文链接与收藏功能" },
+      { "text": "更新日志合并为单一列表；修复未配置服务器地址时的多余网络请求" }
+    ],
+    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/apk/StarTrack-Beijing_1.2.0.2-R-beta_1202.apk"
+  }
+}
