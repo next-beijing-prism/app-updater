@@ -1,16 +1,42 @@
 {
-  "version": "1.2.2",
-  "versionCode": 1220,
-  "updatedAt": "2026-11-27",
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-28T00:00:00+08:00",
   "mobile": {
-    "version": "1.2.2",
-    "versionCode": 1220,
+    "appId": "com.prism.startrack.beijing",
+    "name": "星轨计划·北京",
+    "version": "1.2.2.8",
+    "versionCode": 1229,
+    "releaseDate": "2026-11-28",
+    "minSupportedVersion": "0.5.0",
+    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/stable/StarTrack-Beijing_1.2.2.8_1229.apk",
+    "sourceUrl": "https://github.com/next-beijing-prism/app-updater",
     "notes": [
-      { "text": "新增：每次启动自动检查更新，发现新版本主动提醒" },
-      { "text": "新增：智能检测版本渠道，正式版与内测版自动比对取最新" },
-      { "text": "优化：启动检测在首屏渲染后进行，不打断使用且失败不打扰" },
-      { "text": "修复：检查更新点击无反应、下载无法跳转系统浏览器等问题" }
-    ],
-    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/stable/StarTrack-Beijing_1.2.2_1220.apk"
+      {
+        "type": "improve",
+        "text": "配线图改为 Canvas 自绘引擎，拖动与缩放明显更顺滑，放大后依然清晰"
+      },
+      {
+        "type": "fix",
+        "text": "修复部分道岔、站徽被画粗或糊成黑团的问题"
+      },
+      {
+        "type": "improve",
+        "text": "进入配线图时默认居中到天安门城楼"
+      }
+    ]
+  },
+  "desktop": {
+    "appId": "com.nextstation.beijing",
+    "name": "下一站·北京 桌面版",
+    "version": "1.0.0",
+    "releaseDate": "2026-08-16",
+    "downloadUrl": "",
+    "sourceUrl": "https://github.com/next-beijing-prism/app-updater",
+    "notes": [
+      {
+        "type": "feature",
+        "text": "新增基于 GitHub 的版本更新检测，支持自动下载安装包"
+      }
+    ]
   }
 }
