@@ -1,18 +1,19 @@
 {
-  "version": "1.2.2.6",
-  "versionCode": 1226,
+  "version": "1.2.2.6.1",
+  "versionCode": 1227,
   "updatedAt": "2026-11-28",
   "mobile": {
-    "version": "1.2.2.6",
-    "versionCode": 1226,
+    "version": "1.2.2.6.1",
+    "versionCode": 1227,
     "notes": [
+      { "text": "修复：上一内测包内嵌前端未更新，导致新增功能与版本号未生效" },
       { "text": "新增：机位地图扩充至 14 个机位，补充景山万春亭、北海白塔、鼓楼、前门大街、798、望京 SOHO、亮马河、中央电视塔、首钢园，并增加「公园自然」「艺术街区」图例" },
       { "text": "优化：配线图手势渲染改为帧合并与节流，拖动、缩放更跟手" },
       { "text": "新增：路线规划支持「常走路线」收藏与「最近查询」，记录本地保存、点击即查" },
       { "text": "新增：末班车页可为自选线路/站点/方向设置首班或末班车提醒，进入 App 与前台每分钟检查，到点发送本地通知" },
       { "text": "新增：年度出行小结，按本机交通卡记录汇总出行次数、花费、时长、常去车站与常走路线（首页入口）" },
-      { "text": "内测 1.2.2.6（1226）：仅内测渠道可收到，正式版仍为 1.2.2" }
+      { "text": "内测 1.2.2.6.1（1227）：仅内测渠道可收到，正式版仍为 1.2.2" }
     ],
-    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/beta/StarTrack-Beijing_1.2.2.6_1226.apk"
+    "downloadUrl": "https://raw.githubusercontent.com/next-beijing-prism/app-updater/main/beta/StarTrack-Beijing_1.2.2.6.1_1227.apk"
   }
 }
